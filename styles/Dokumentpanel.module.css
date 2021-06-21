@@ -1,0 +1,18 @@
+.dokumentpanel {
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+.download__container {
+  background-color: var(--navds-color-gray-10);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.download__panel {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25em;
+}

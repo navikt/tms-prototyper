@@ -1,0 +1,11 @@
+#linkpanels {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.linkpanel {
+  padding: 1.25em;
+  margin-bottom: 2rem;
+}

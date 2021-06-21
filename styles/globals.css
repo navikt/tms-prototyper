@@ -1,0 +1,28 @@
+.navds-layout__header {
+  border-bottom: solid 4px cornflowerblue;
+}
+
+.navds-layout__body {
+  min-height: 100vh;
+}
+
+.navds-layout__container {
+  display: flex !important;
+  justify-content: center;
+  width: 100%;
+}
+
+.navds-alert--warning {
+  border: none !important;
+  background-color: white !important;
+}
+
+.navds-alert--info {
+  border: none !important;
+  background-color: white !important;
+}
+
+.navds-alert--success {
+  border: none !important;
+  background-color: white !important;
+}
