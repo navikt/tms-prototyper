@@ -1,6 +1,6 @@
 import { ProductPageLayout, Panel, ContentContainer } from "@navikt/ds-react";
 import { Download, File, FileFolder } from "@navikt/ds-icons";
-import styles from "../styles/Dokumentpanel.module.css";
+import styles from "./Dokumentpanel.module.css";
 
 export default function Dokumentpanel() {
   const tekst =

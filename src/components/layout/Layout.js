@@ -1,5 +1,5 @@
 import { ProductPageLayout, Panel, ContentContainer } from "@navikt/ds-react";
-import styles from "../styles/Layout.module.css";
+import styles from "./Layout.module.css";
 
 export default function Layout({ children }) {
   const title = "Min side - prototyper";

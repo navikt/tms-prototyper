@@ -1,4 +1,4 @@
-import Dokumentpanel from "../components/Dokumentpanel";
+import Dokumentpanel from "../components/dokumentpanel/Dokumentpanel";
 
 export default function Dokumenter() {
   return (
