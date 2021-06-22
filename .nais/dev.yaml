@@ -1,3 +1,3 @@
 basePath: /person/tms-prototyper
 ingresses:
-  - "https://tms-prototyper.dev.intern.nav.no/person/tms-prototyper"
+  - "https://tms-prototyper.dev.nav.no/person/tms-prototyper"
