@@ -4,7 +4,10 @@ const withTM = require("next-transpile-modules")([
   "@navikt/ds-react",
 ]);
 
+const isProduction = process.env.NODE_ENV === "production";
+
 module.exports = withPlugins([withTM], {
+  basePath: isProduction ? '/person/tms-prototyper' : undefined
   future: {
     webpack5: true,
   },
