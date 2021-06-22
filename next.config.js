@@ -7,7 +7,7 @@ const withTM = require("next-transpile-modules")([
 const isProduction = process.env.NODE_ENV === "production";
 
 module.exports = withPlugins([withTM], {
-  basePath: isProduction ? '/person/tms-prototyper' : undefined
+  basePath: isProduction ? "/person/tms-prototyper" : undefined,
   future: {
     webpack5: true,
   },
