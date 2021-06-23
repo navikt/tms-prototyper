@@ -7,16 +7,13 @@ metadata:
     team: "min-side"
 spec:
   image: {{image}}
+  port: 3000
   liveness:
-    path: "{{basePath}}/api/internal/isAlive"
-    port: 3000
+    path: "/person/tms-prototyper/api/isAlive"
     initialDelay: 20
-    timeout: 60
   readiness:
-    path: "{{basePath}}/api/internal/isReady"
-    port: 3000
+    path: "/person/tms-prototyper/api/isReady"
     initialDelay: 20
-    timeout: 60
   replicas:
     min: 2
     max: 2
