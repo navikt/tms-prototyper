@@ -6,7 +6,7 @@ metadata:
   labels:
     team: "min-side"
 spec:
-  image: {{image}}
+  image: { { image } }
   port: 3000
   liveness:
     path: "/person/tms-prototyper/api/isAlive"
@@ -26,7 +26,5 @@ spec:
   requests:
     cpu: "200m"
     memory: "256Mi"
-  ingresses: 
-    {{#each ingresses as |url|}}
-      - {{url}}
-    {{/each}}
+  ingresses:
+    - "https://tms-prototyper.dev.nav.no/person/tms-prototyper"
