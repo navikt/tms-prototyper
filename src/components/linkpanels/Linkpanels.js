@@ -6,14 +6,11 @@ export default function Linkpanels() {
     <section id={styles.linkpanels}>
       <LinkPanel
         className={styles.linkpanel}
-        href="/person/tms-prototyper/brukernotifikasjoner"
+        href="/prototyper/brukernotifikasjoner"
       >
         Brukernotifikasjoner
       </LinkPanel>
-      <LinkPanel
-        className={styles.linkpanel}
-        href="/person/tms-prototyper/dokumenter"
-      >
+      <LinkPanel className={styles.linkpanel} href="/prototyper/dokumenter">
         Dokumenter
       </LinkPanel>
     </section>

@@ -9,10 +9,10 @@ spec:
   image: {{image}}
   port: 3000
   liveness:
-    path: "/person/tms-prototyper/api/isAlive"
+    path: "/prototyper/api/isAlive"
     initialDelay: 20
   readiness:
-    path: "/person/tms-prototyper/api/isReady"
+    path: "/prototyper/api/isReady"
     initialDelay: 20
   replicas:
     min: 2
@@ -27,4 +27,4 @@ spec:
     cpu: "200m"
     memory: "256Mi"
   ingresses:
-    - "https://tms-prototyper.dev.nav.no/person/tms-prototyper"
+    - "https://min-side.dev.nav.no/prototyper"
