@@ -12,6 +12,25 @@
   width: 100%;
 }
 
+.navds-link-panel {
+  border: none !important;
+  background-color: #a4c2f9 !important;
+  padding: 2.25em !important;
+  color: black !important;
+}
+
+.navds-link-panel-title {
+  text-decoration: none !important;
+}
+
+.navds-link-panel:hover {
+  background-color: white !important;
+}
+
+.navds-link-panel__chevron {
+  display: none !important;
+}
+
 .navds-alert--warning {
   border: none !important;
   background-color: white !important;
