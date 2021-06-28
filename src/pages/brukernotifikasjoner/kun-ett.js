@@ -1,11 +1,16 @@
-import { Alert, Panel } from "@navikt/ds-react";
+import {
+  Alert,
+  Panel,
+  LinkPanel,
+  Link,
+  Title,
+  Ingress,
+} from "@navikt/ds-react";
+import styles from "../../components/linkpanels/Linkpanels.module.css";
 
-export default function Brukernotifikasjoner() {
+export default function KunEtt() {
   return (
     <section>
-      <header>
-        <h2>Brukernotifikasjoner</h2>
-      </header>
       <Panel>
         <Alert variant="info">Beskjed</Alert>
         <Alert variant="warning">Oppgave</Alert>
