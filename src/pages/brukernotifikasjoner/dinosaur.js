@@ -444,9 +444,17 @@ const Dinosaur = () => (
 
 export default function Brukernotifikasjoner() {
   return (
-    <section>
-      <h1>Hei, Mamma Dino</h1>
+    <section className="wrapper">
+      <h1 className="title">Hei, Mamma Dino</h1>
       <Dinosaur></Dinosaur>
+      <style jsx>{`
+        .wrapper {
+          text-align: center;
+        }
+        .title {
+          padding-bottom: 1.45rem;
+        }
+      `}</style>
     </section>
   );
 }
