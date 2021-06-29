@@ -283,7 +283,7 @@ export default function Brukernotifikasjoner() {
           text-align: center;
         }
         .title {
-          padding-bottom: 2rem;
+          padding-bottom: 1rem;
         }
       `}</style>
     </section>

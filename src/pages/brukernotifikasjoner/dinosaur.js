@@ -452,7 +452,7 @@ export default function Brukernotifikasjoner() {
           text-align: center;
         }
         .title {
-          padding-bottom: 1.45rem;
+          padding-bottom: 1rem;
         }
       `}</style>
     </section>
