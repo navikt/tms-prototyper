@@ -3,7 +3,7 @@ import styles from "../../components/linkpanels/Linkpanels.module.css";
 
 export default function Brukernotifikasjoner() {
   return (
-    <section>
+    <section id={styles.linkpanels}>
       <LinkPanel
         className={styles.linkpanel}
         href="/prototyper/brukernotifikasjoner/ingen-nye"

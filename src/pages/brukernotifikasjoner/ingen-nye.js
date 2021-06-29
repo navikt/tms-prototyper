@@ -271,13 +271,21 @@ const Dino = () => (
 export default function Brukernotifikasjoner() {
   return (
     <section>
-      <div>
-        <h1>Hei, Dag helge Sandvik Scott</h1>
+      <div className="wrapper">
+        <h1 className="title">Hei, Dag helge Sandvik Scott</h1>
         <Vindu></Vindu>
         <h3>Ingen nye varsler</h3>
         <p>Du er oppdatert</p>
         <Link>Se tidligere meldinger</Link>
       </div>
+      <style jsx>{`
+        .wrapper {
+          text-align: center;
+        }
+        .title {
+          padding-bottom: 2rem;
+        }
+      `}</style>
     </section>
   );
 }
