@@ -13,9 +13,13 @@
 }
 
 .navds-link-panel {
+  border: none !important;
+  /*
+  padding: 1.25em !important;
   border: solid 2px #0067c5 !important;
   padding: 2em !important;
   color: #0067c5 !important;
+  */
 }
 
 .navds-link-panel-title {
@@ -23,8 +27,8 @@
 }
 
 .navds-link-panel:hover {
-  background-color: white !important;
-  text-decoration: underline !important;
+  /* background-color: white !important;
+  text-decoration: underline !important; */
 }
 
 .navds-link-panel__chevron {
